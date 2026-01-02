@@ -1,17 +1,46 @@
-# Welcome to OpenUI
+# OpenUI: The Matter Protocol for the Web 🌐
 
-**OpenUI** is the "OpenAPI for Large Action Models". It provides a deterministic way to describe graphical user interfaces so that AI agents and LAMs can interact with them reliably and intelligently.
+**Standardizing Autonomous Agent Interactions via Deterministic UI Discovery.**
 
-## Vision
+![OpenUI Banner](https://raw.githubusercontent.com/aigamer-dev/openui/master/assets/banner.png)
 
-The gap between a Large Action Model (LAM) and a modern web application is often the lack of structured interaction metadata. OpenUI bridges this gap by statically and dynamically analyzing codebases to produce an **Agent-UI JSON Standard**.
+## The Vision: Closing the "Interface Gap"
 
-## Key Concepts
+Current AI agents rely on fragile, non-deterministic methods like screen scraping and computer vision to navigate web applications. This results in the **"Vision Tax"**—high latency, prohibitive inference costs, and low reliability (~85% success rate).
 
-- **Agent-UI Standard**: A semantic JSON schema describing UI states, elements, and intents.
-- **Codebase RAG**: A retrieval-augmented engine that "understands" your code better than a simple scraper.
-- **Deterministic discovery**: Grounding AI "dreams" in actual source code evidence.
+**OpenUI** is a standardized JSON-based protocol that allows web applications to explicitly declare their interactive states and logic to AI agents. By decoupling the **"Action Layer"** from the **"Visual Layer,"** we enable true agentic autonomy.
 
-## Getting Started
+---
 
-Check out the [Usage](usage.md) guide to start generating schemas for your own projects.
+## Why OpenUI?
+
+### 🚀 Zero Vision Tax
+Processing a 1080p screenshot requires encoding thousands of vision tokens. OpenUI uses structured text, reducing token costs by **100x** and latency from seconds to milliseconds.
+
+### 🎯 99.9% Determinism
+No more "coordinate hallucination." OpenUI provides a deterministic "hit test" for every interactive element directly from the source code.
+
+### 🛠️ Agent Interface Optimization (AIO)
+Just as SEO optimized the web for search engines, **AIO** optimizes your application for the "Internet of Agents."
+
+---
+
+## Key Components
+
+- **[The OpenUI Protocol](standards/protocol.md)**: A universal schema for UI discovery.
+- **[OpenUI CLI](learn/cli.md)**: The reference auto-generator that translates your codebase into the standard.
+- **[Benchmarks](learn/benchmarks.md)**: Real-world performance comparison (Vision vs. OpenUI).
+
+## Installation
+
+```bash
+pip install openui-cli
+```
+
+## Quick Start
+
+```bash
+openui --target ./my-project --rag
+```
+
+This generates an `agent-ui.json` at your project root—the "OpenAPI" for your interface.

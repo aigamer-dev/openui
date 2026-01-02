@@ -30,10 +30,17 @@ theme:
 
 nav:
   - Home: index.md
-  - The Standard: standard.md
+  - Learn:
+      - What is OpenUI?: index.md
+      - OpenUI CLI: learn/cli.md
+      - Benchmarks: learn/benchmarks.md
+  - The Standard:
+      - Protocol Overview: standards/protocol.md
+      - Agent-UI Schema: standards/agent-ui.md
   - Usage: usage.md
-  - Contributing: CONTRIBUTING.md
-  - Developer Guide: DEVELOPMENT.md
+  - Community:
+      - Contributing: CONTRIBUTING.md
+      - Development Guide: DEVELOPMENT.md
 
 markdown_extensions:
   - admonition
