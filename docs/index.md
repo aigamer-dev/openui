@@ -1,6 +1,7 @@
 # OpenUI: The Standard for LAM Interaction
 
 <div class="openui-hero">
+  <img src="assets/banner.png" alt="OpenUI Banner" class="openui-banner">
   <h1>The Matter Protocol for the Web</h1>
   <p style="font-size: 1.25rem; color: var(--md-default-fg-color--light);">Standardizing Autonomous Agent Interactions via Deterministic UI Discovery.</p>
 </div>
