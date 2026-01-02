@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "openui-cli"
+version = "1.0.0"
+description = "Deterministic UI discovery via Codebase RAG"
+authors = ["aigamer-dev <contact@aigamer.dev>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/aigamer-dev/openui"
+homepage = "https://github.com/aigamer-dev/openui"
+package-mode = true
+packages = [
+    { include = "modules" },
+    { include = "openui_gen.py" },
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+playwright = "^1.40.0"
+requests = "^2.31.0"
+torch = "^2.2.0"
+transformers = "^4.38.0"
+beautifulsoup4 = "^4.12.0"
+accelerate = "^0.27.0"
+sentence-transformers = "^5.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+openui = "openui_gen:main"
