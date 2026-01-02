@@ -1,0 +1,82 @@
+:root {
+  --md-primary-fg-color: #263238;
+  --md-primary-fg-color--light: #455a64;
+  --md-primary-fg-color--dark: #1a237e;
+}
+
+/* Glassmorphism Header */
+.md-header {
+  backdrop-filter: blur(10px);
+  background-color: rgba(38, 50, 56, 0.85) !important;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background-color: rgba(15, 17, 26, 0.8) !important;
+}
+
+/* Card Styling */
+.md-content__inner {
+  line-height: 1.6;
+}
+
+.md-typeset h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+}
+
+.md-typeset .admonition {
+  border-radius: 8px;
+  border-left-width: 4px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section Refinement */
+.openui-hero {
+  padding: 4rem 0;
+  text-align: center;
+  background: radial-gradient(circle at center, rgba(33, 150, 243, 0.1) 0%, transparent 70%);
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.openui-hero h1 {
+  font-size: 3rem !important;
+  background: linear-gradient(135deg, #263238 0%, #1a237e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0;
+}
+
+[data-md-color-scheme="slate"] .openui-hero h1 {
+  background: linear-gradient(135deg, #eceff1 0%, #90caf9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.openui-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.openui-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: var(--md-default-bg-color);
+}
+
+.openui-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-color: var(--md-accent-fg-color);
+}
+
+.openui-card h3 {
+  margin-top: 0;
+  font-weight: 700;
+  color: var(--md-primary-fg-color);
+}

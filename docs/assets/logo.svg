@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120">
+  <title>OpenUI Logo - Interface Nexus</title>
+  <!-- 
+    OpenUI Logo: Interface Nexus (Concept X3)
+    Final High-Precision Reconstruction
+    Architecture: Triple-Interlock Shutter Aperture
+  -->
+  <g fill="currentColor">
+    <!-- Main Icon Geometry -->
+    <g transform="translate(0, 0)">
+      <!-- Outer Professional Ring -->
+      <path d="M50 0C22.4 0 0 22.4 0 50s22.4 50 50 50 50-22.4 50-50S77.6 0 50 0zm0 88c-21 0-38-17-38-38S29 12 50 12s38 17 38 38-17 38-38 38z"/>
+      
+      <!-- Interlocking Nexus Blades -->
+      <g transform="translate(50,50)">
+        <!-- 3-Segment Aperture Construction -->
+        <g id="blades">
+          <!-- Blade A -->
+          <path d="M0-30c12 0 24 10 28 22l-12 6c-3-8-10-14-16-14V-30z" transform="rotate(0)"/>
+          <path d="M28-8c2 12-4 24-14 28l-6-12c6-3 8-8 8-14h12z" transform="rotate(0)"/>
+          
+          <!-- Blade B (120 deg) -->
+          <path d="M0-30c12 0 24 10 28 22l-12 6c-3-8-10-14-16-14V-30z" transform="rotate(120)"/>
+          <path d="M28-8c2 12-4 24-14 28l-6-12c6-3 8-8 8-14h12z" transform="rotate(120)"/>
+          
+          <!-- Blade C (240 deg) -->
+          <path d="M0-30c12 0 24 10 28 22l-12 6c-3-8-10-14-16-14V-30z" transform="rotate(240)"/>
+          <path d="M28-8c2 12-4 24-14 28l-6-12c6-3 8-8 8-14h12z" transform="rotate(240)"/>
+        </g>
+        
+        <!-- Central Hex Nexus Core -->
+        <path d="M0-8l7 4v8L0 8l-7-4v-8L0-8zm0 3.5l-3 1.7v3.5L0 4.5l3-1.7v-3.5L0-4.5z"/>
+      </g>
+    </g>
+    
+    <!-- Wordmark Integration -->
+    <text x="50" y="115" font-family="Inter, Roboto, sans-serif" font-weight="700" font-size="14" text-anchor="middle" letter-spacing="0.05em">OpenUI Standard</text>
+  </g>
+</svg>

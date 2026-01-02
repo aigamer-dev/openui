@@ -1,46 +1,58 @@
-# OpenUI: The Matter Protocol for the Web 🌐
+# OpenUI: The Standard for LAM Interaction
 
-**Standardizing Autonomous Agent Interactions via Deterministic UI Discovery.**
+<div class="openui-hero">
+  <h1>The Matter Protocol for the Web</h1>
+  <p style="font-size: 1.25rem; color: var(--md-default-fg-color--light);">Standardizing Autonomous Agent Interactions via Deterministic UI Discovery.</p>
+</div>
 
-![OpenUI Banner](https://raw.githubusercontent.com/aigamer-dev/openui/master/assets/banner.png)
+## Why Industry Leaders Choose OpenUI
 
-## The Vision: Closing the "Interface Gap"
-
-Current AI agents rely on fragile, non-deterministic methods like screen scraping and computer vision to navigate web applications. This results in the **"Vision Tax"**—high latency, prohibitive inference costs, and low reliability (~85% success rate).
-
-**OpenUI** is a standardized JSON-based protocol that allows web applications to explicitly declare their interactive states and logic to AI agents. By decoupling the **"Action Layer"** from the **"Visual Layer,"** we enable true agentic autonomy.
+<div class="openui-grid">
+  <div class="openui-card">
+    <h3>🚀 Zero Vision Tax</h3>
+    <p>Kill the latency. Moving from multi-second vision encoding to millisecond JSON parsing reduces token costs by 100x.</p>
+  </div>
+  <div class="openui-card">
+    <h3>🎯 99.9% Determinism</h3>
+    <p>Eliminate coordinate hallucinations. Every interactive state is directly mapped from the source code, ensuring perfect execution reliability.</p>
+  </div>
+  <div class="openui-card">
+    <h3>🛠️ Agent Optimized (AIO)</h3>
+    <p>Just as SEO scaled the search era, AIO scales the agent era. Optimize your applications for the "Internet of Agents."</p>
+  </div>
+</div>
 
 ---
 
-## Why OpenUI?
+## Core Pillars of the Protocol
 
-### 🚀 Zero Vision Tax
-Processing a 1080p screenshot requires encoding thousands of vision tokens. OpenUI uses structured text, reducing token costs by **100x** and latency from seconds to milliseconds.
+### The Interface Gap
+Modern UI is built for biological perception. OpenUI bridges the "Interface Gap" by providing a semantic map that agents can traverse without visual ambiguity.
 
-### 🎯 99.9% Determinism
-No more "coordinate hallucination." OpenUI provides a deterministic "hit test" for every interactive element directly from the source code.
-
-### 🛠️ Agent Interface Optimization (AIO)
-Just as SEO optimized the web for search engines, **AIO** optimizes your application for the "Internet of Agents."
+### Matter for the Web
+OpenUI acts as the universal language between any AI Agent (LAM) and any software interface, decoupling the **Action Layer** from the **Visual Layer**.
 
 ---
 
-## Key Components
+## Get Started in Seconds
 
-- **[The OpenUI Protocol](standards/protocol.md)**: A universal schema for UI discovery.
-- **[OpenUI CLI](learn/cli.md)**: The reference auto-generator that translates your codebase into the standard.
-- **[Benchmarks](learn/benchmarks.md)**: Real-world performance comparison (Vision vs. OpenUI).
+=== "CLI Installation"
 
-## Installation
+    ```bash
+    pip install openui-cli
+    ```
 
-```bash
-pip install openui-cli
-```
+=== "Generate Schema"
 
-## Quick Start
+    ```bash
+    openui --target ./my-project --rag
+    ```
 
-```bash
-openui --target ./my-project --rag
-```
+---
 
-This generates an `agent-ui.json` at your project root—the "OpenAPI" for your interface.
+<div style="text-align: center; margin-top: 4rem; padding: 2rem; background: var(--md-default-fg-color--lightest); border-radius: 12px;">
+  <h2>Ready to bridge the gap?</h2>
+  <p>Join the movement towards a deterministic, agent-first web.</p>
+  <a href="usage/" class="md-button md-button--primary">Read Usage Guide</a>
+  <a href="standards/protocol/" class="md-button">Explore the Protocol</a>
+</div>
