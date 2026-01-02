@@ -1,17 +1,59 @@
-# Welcome to OpenUI
+# OpenUI: The Standard for LAM Interaction
 
-**OpenUI** is the "OpenAPI for Large Action Models". It provides a deterministic way to describe graphical user interfaces so that AI agents and LAMs can interact with them reliably and intelligently.
+<div class="openui-hero">
+  <img src="assets/banner.png" alt="OpenUI Banner" class="openui-banner">
+  <h1>The Matter Protocol for the Web</h1>
+  <p style="font-size: 1.25rem; color: var(--md-default-fg-color--light);">Standardizing Autonomous Agent Interactions via Deterministic UI Discovery.</p>
+</div>
 
-## Vision
+## Why Industry Leaders Choose OpenUI
 
-The gap between a Large Action Model (LAM) and a modern web application is often the lack of structured interaction metadata. OpenUI bridges this gap by statically and dynamically analyzing codebases to produce an **Agent-UI JSON Standard**.
+<div class="openui-grid">
+  <div class="openui-card">
+    <h3>🚀 Zero Vision Tax</h3>
+    <p>Kill the latency. Moving from multi-second vision encoding to millisecond JSON parsing reduces token costs by 100x.</p>
+  </div>
+  <div class="openui-card">
+    <h3>🎯 99.9% Determinism</h3>
+    <p>Eliminate coordinate hallucinations. Every interactive state is directly mapped from the source code, ensuring perfect execution reliability.</p>
+  </div>
+  <div class="openui-card">
+    <h3>🛠️ Agent Optimized (AIO)</h3>
+    <p>Just as SEO scaled the search era, AIO scales the agent era. Optimize your applications for the "Internet of Agents."</p>
+  </div>
+</div>
 
-## Key Concepts
+---
 
-- **Agent-UI Standard**: A semantic JSON schema describing UI states, elements, and intents.
-- **Codebase RAG**: A retrieval-augmented engine that "understands" your code better than a simple scraper.
-- **Deterministic discovery**: Grounding AI "dreams" in actual source code evidence.
+## Core Pillars of the Protocol
 
-## Getting Started
+### The Interface Gap
+Modern UI is built for biological perception. OpenUI bridges the "Interface Gap" by providing a semantic map that agents can traverse without visual ambiguity.
 
-Check out the [Usage](usage.md) guide to start generating schemas for your own projects.
+### Matter for the Web
+OpenUI acts as the universal language between any AI Agent (LAM) and any software interface, decoupling the **Action Layer** from the **Visual Layer**.
+
+---
+
+## Get Started in Seconds
+
+=== "CLI Installation"
+
+    ```bash
+    pip install openui-cli
+    ```
+
+=== "Generate Schema"
+
+    ```bash
+    openui --target ./my-project --rag
+    ```
+
+---
+
+<div style="text-align: center; margin-top: 4rem; padding: 2rem; background: var(--md-default-fg-color--lightest); border-radius: 12px;">
+  <h2>Ready to bridge the gap?</h2>
+  <p>Join the movement towards a deterministic, agent-first web.</p>
+  <a href="usage/" class="md-button md-button--primary">Read Usage Guide</a>
+  <a href="standards/protocol/" class="md-button">Explore the Protocol</a>
+</div>
