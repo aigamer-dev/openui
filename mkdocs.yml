@@ -32,8 +32,8 @@ nav:
   - Home: index.md
   - The Standard: standard.md
   - Usage: usage.md
-  - Contributing: contributing.md
-  - Developer Guide: developer_guide.md
+  - Contributing: CONTRIBUTING.md
+  - Developer Guide: DEVELOPMENT.md
 
 markdown_extensions:
   - admonition

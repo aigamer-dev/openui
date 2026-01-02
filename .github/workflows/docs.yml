@@ -8,7 +8,8 @@ on:
       - 'docs/**'
       - 'mkdocs.yml'
       - 'README.md'
-      - 'developer.md'
+      - 'DEVELOPMENT.md'
+      - 'CONTRIBUTING.md'
 
 permissions:
   contents: write
