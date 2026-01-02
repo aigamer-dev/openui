@@ -1,4 +1,4 @@
-# OpenUI Developer Guide
+# Development Guide
 
 Welcome to the development community of OpenUI! This document provides information on how to contribute, extend, and improve the OpenUI standard and generator.
 
